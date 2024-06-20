@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(29, 29, 69);
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 15px;
+    padding: 10px;
+    width: 450px;
+    height: 250px;
+    box-shadow: 10px 10px;
+}
+h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.home_Score{
+    display: inline-block;
+    width: 150px;
+    margin-right: 50px;
+}
+.guest_Score{
+    display: inline-block;
+    width: 150px;
+}
+.score{
+   margin: 40px;
+}
+#screen1{
+    background-color: black;
+    color: rgb(250, 95, 95);
+    font-size: 70px;
+    text-align:center;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#screen2{
+    background-color: black;
+    color: rgb(250, 95, 95);
+    font-size: 70px;
+    text-align:center;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 42px;
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 5px;
+    border-color: rgb(110, 110, 156);
+    color: rgb(126, 126, 145);
+    background-color:rgb(29, 29, 69) ;
+    font-weight: 600;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
